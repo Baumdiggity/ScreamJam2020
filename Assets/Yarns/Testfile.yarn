@@ -1,11 +1,13 @@
 title: Start
 tags: 
 colorID: 1
-position: 1128,812
+position: 1127,812
 ---
 This is sample text
 Here's line two
 the end
+[[option1|option1]]
+[[option2|option2]]
 ===
 title: Node
 tags: 
@@ -13,4 +15,18 @@ colorID: 0
 position: 816,546
 ---
 Empty Text
+===
+title: option1
+tags: 
+colorID: 0
+position: 1247,592
+---
+This is option 1
+===
+title: option2
+tags: 
+colorID: 0
+position: 1460,587
+---
+This is option 2
 ===
