@@ -1,10 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Yarn;
 using Yarn.Unity;
 
-public class DialougeAdvance : MonoBehaviour
+public class DialogueAdvance : MonoBehaviour
 {
     DialogueUI _ui;
     // Start is called before the first frame update
@@ -16,7 +15,7 @@ public class DialougeAdvance : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             _ui.MarkLineComplete();
         }

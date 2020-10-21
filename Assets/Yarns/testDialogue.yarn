@@ -1,0 +1,29 @@
+title: Item
+tags: 
+colorID: 1
+position: 1003,568
+---
+<<if $shinyGone is 0>>
+You see a shiny item
+Do you Take it?
+[[yes|take]]
+[[no|leave]]
+<<else>>
+There's nothing here now
+<<endif>>
+===
+title: take
+tags: 
+colorID: 0
+position: 1121,346
+---
+It is yours now 
+<<set $shinyGone to 1>>
+===
+title: leave
+tags: 
+colorID: 0
+position: 1343,348
+---
+Better leave it alone
+===
